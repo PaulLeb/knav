@@ -1,0 +1,450 @@
+{
+    "routes": [{
+        "legs": [{
+            "summary": "Rue Martin Luther King, Rue du Clos Barbey",
+            "weight": 261.1,
+            "duration": 182.4,
+            "steps": [{
+                "intersections": [{
+                    "out": 0,
+                    "entry": [true],
+                    "bearings": [229],
+                    "location": [-0.397643, 49.203579]
+                }, {
+                    "out": 2,
+                    "in": 0,
+                    "entry": [false, true, true],
+                    "bearings": [60, 135, 240],
+                    "location": [-0.398866, 49.203005]
+                }],
+                "driving_side": "right",
+                "geometry": "kaikHftlAv@bBx@pCvAfF\\~@n@x@b@XXDp@?",
+                "mode": "driving",
+                "maneuver": {
+                    "bearing_after": 229,
+                    "bearing_before": 0,
+                    "location": [-0.397643, 49.203579],
+                    "type": "depart"
+                },
+                "weight": 59,
+                "duration": 59,
+                "name": "Rue Martin Luther King",
+                "distance": 334.5
+            }, {
+                "intersections": [{
+                    "out": 2,
+                    "in": 0,
+                    "entry": [false, false, true, true],
+                    "bearings": [0, 90, 180, 270],
+                    "location": [-0.400797, 49.201618]
+                }, {
+                    "out": 1,
+                    "in": 0,
+                    "entry": [false, true, false],
+                    "bearings": [0, 90, 270],
+                    "location": [-0.400798, 49.201572]
+                }, {
+                    "out": 0,
+                    "in": 1,
+                    "entry": [true, false, false],
+                    "bearings": [90, 270, 285],
+                    "location": [-0.400265, 49.201589]
+                }],
+                "driving_side": "right",
+                "geometry": "cuhkH~gmAH?CiB@gIFeA",
+                "mode": "driving",
+                "maneuver": {
+                    "bearing_after": 180,
+                    "bearing_before": 180,
+                    "location": [-0.400797, 49.201618],
+                    "modifier": "left",
+                    "type": "end of road"
+                },
+                "weight": 69.2,
+                "duration": 22.1,
+                "name": "Route de Rosel",
+                "distance": 188.9
+            }, {
+                "intersections": [{
+                    "out": 1,
+                    "in": 2,
+                    "entry": [true, true, false],
+                    "bearings": [105, 195, 285],
+                    "location": [-0.398275, 49.20154]
+                }, {
+                    "out": 2,
+                    "in": 0,
+                    "entry": [false, true, true],
+                    "bearings": [15, 30, 195],
+                    "location": [-0.398344, 49.201244]
+                }, {
+                    "out": 1,
+                    "in": 0,
+                    "entry": [false, true, true],
+                    "bearings": [15, 195, 285],
+                    "location": [-0.398383, 49.201152]
+                }, {
+                    "out": 2,
+                    "in": 0,
+                    "entry": [false, true, true],
+                    "bearings": [15, 105, 195],
+                    "location": [-0.398395, 49.201122]
+                }],
+                "driving_side": "right",
+                "geometry": "sthkHfxlAH?LFL@T@PFDBp@VVB",
+                "mode": "driving",
+                "maneuver": {
+                    "bearing_after": 188,
+                    "bearing_before": 98,
+                    "location": [-0.398275, 49.20154],
+                    "modifier": "right",
+                    "type": "turn"
+                },
+                "weight": 16.7,
+                "duration": 15.6,
+                "name": "",
+                "distance": 90.5
+            }, {
+                "intersections": [{
+                    "out": 2,
+                    "in": 0,
+                    "entry": [false, false, true],
+                    "bearings": [15, 90, 240],
+                    "location": [-0.398541, 49.200749]
+                }],
+                "driving_side": "right",
+                "geometry": "uohkHzylABJDJFD",
+                "mode": "driving",
+                "maneuver": {
+                    "exit": 1,
+                    "bearing_after": 241,
+                    "bearing_before": 195,
+                    "location": [-0.398541, 49.200749],
+                    "modifier": "right",
+                    "type": "roundabout"
+                },
+                "weight": 8.6,
+                "duration": 3.8,
+                "name": "Rue du Clos Barbey",
+                "distance": 15
+            }, {
+                "intersections": [{
+                    "out": 2,
+                    "in": 0,
+                    "entry": [false, true, true],
+                    "bearings": [30, 195, 285],
+                    "location": [-0.398692, 49.200663]
+                }, {
+                    "out": 2,
+                    "in": 0,
+                    "entry": [false, true, true],
+                    "bearings": [90, 180, 270],
+                    "location": [-0.399676, 49.20074]
+                }],
+                "driving_side": "right",
+                "geometry": "cohkHxzlAE`@IbDEtBAZ?JDVNDb@Jj@Tj@Z",
+                "mode": "driving",
+                "maneuver": {
+                    "exit": 1,
+                    "bearing_after": 285,
+                    "bearing_before": 212,
+                    "location": [-0.398692, 49.200663],
+                    "modifier": "right",
+                    "type": "exit roundabout"
+                },
+                "weight": 74,
+                "duration": 48.4,
+                "name": "Rue du Clos Barbey",
+                "distance": 221.7
+            }, {
+                "intersections": [{
+                    "out": 2,
+                    "in": 0,
+                    "entry": [false, true, true],
+                    "bearings": [30, 135, 315],
+                    "location": [-0.400932, 49.200048]
+                }, {
+                    "out": 2,
+                    "in": 0,
+                    "entry": [false, true, true],
+                    "bearings": [135, 240, 315],
+                    "location": [-0.402268, 49.200843]
+                }],
+                "driving_side": "right",
+                "geometry": "ikhkHxhmAs@~AiBjDs@zAi@fAGTKDE?G?",
+                "mode": "driving",
+                "maneuver": {
+                    "bearing_after": 309,
+                    "bearing_before": 202,
+                    "location": [-0.400932, 49.200048],
+                    "modifier": "right",
+                    "type": "end of road"
+                },
+                "weight": 33.6,
+                "duration": 33.5,
+                "name": "Rue de Villons les Buissons",
+                "distance": 234
+            }, {
+                "intersections": [{
+                    "in": 0,
+                    "entry": [true],
+                    "bearings": [185],
+                    "location": [-0.403229, 49.201476]
+                }],
+                "driving_side": "right",
+                "geometry": "gthkHdwmA",
+                "mode": "driving",
+                "maneuver": {
+                    "bearing_after": 0,
+                    "bearing_before": 5,
+                    "location": [-0.403229, 49.201476],
+                    "type": "arrive"
+                },
+                "weight": 0,
+                "duration": 0,
+                "name": "Rue de Villons les Buissons",
+                "distance": 0
+            }],
+            "distance": 1084.5
+        }],
+        "weight_name": "routability",
+        "weight": 261.1,
+        "duration": 182.4,
+        "distance": 1084.5
+    }, {
+        "legs": [{
+            "summary": "Rue Martin Luther King, Rue de Villons les Buissons",
+            "weight": 274.2,
+            "duration": 238.3,
+            "steps": [{
+                "intersections": [{
+                    "out": 0,
+                    "entry": [true],
+                    "bearings": [229],
+                    "location": [-0.397643, 49.203579]
+                }, {
+                    "out": 2,
+                    "in": 0,
+                    "entry": [false, true, true],
+                    "bearings": [60, 135, 240],
+                    "location": [-0.398866, 49.203005]
+                }],
+                "driving_side": "right",
+                "geometry": "kaikHftlAv@bBx@pCvAfF\\~@n@x@b@XXDp@?",
+                "mode": "driving",
+                "maneuver": {
+                    "bearing_after": 229,
+                    "bearing_before": 0,
+                    "location": [-0.397643, 49.203579],
+                    "type": "depart"
+                },
+                "weight": 59,
+                "duration": 59,
+                "name": "Rue Martin Luther King",
+                "distance": 334.5
+            }, {
+                "intersections": [{
+                    "out": 2,
+                    "in": 0,
+                    "entry": [false, false, true, true],
+                    "bearings": [0, 90, 180, 270],
+                    "location": [-0.400797, 49.201618]
+                }, {
+                    "out": 1,
+                    "in": 0,
+                    "entry": [false, true, false],
+                    "bearings": [0, 90, 270],
+                    "location": [-0.400798, 49.201572]
+                }, {
+                    "out": 0,
+                    "in": 1,
+                    "entry": [true, false, false],
+                    "bearings": [90, 270, 285],
+                    "location": [-0.400265, 49.201589]
+                }, {
+                    "out": 0,
+                    "in": 2,
+                    "entry": [true, true, false],
+                    "bearings": [105, 195, 285],
+                    "location": [-0.398275, 49.20154]
+                }, {
+                    "lanes": [{
+                        "valid": true,
+                        "indications": ["straight"]
+                    }],
+                    "out": 0,
+                    "in": 2,
+                    "entry": [true, false, false],
+                    "bearings": [105, 210, 285],
+                    "location": [-0.398047, 49.201512]
+                }, {
+                    "lanes": [{
+                        "valid": false,
+                        "indications": ["slight left"]
+                    }, {
+                        "valid": true,
+                        "indications": ["straight"]
+                    }],
+                    "out": 1,
+                    "in": 2,
+                    "entry": [false, true, false],
+                    "bearings": [114, 121, 291],
+                    "location": [-0.396674, 49.201241]
+                }],
+                "driving_side": "right",
+                "geometry": "cuhkH~gmAH?CiB@gIFeADm@PyBBSRuAJo@n@wBFODGLI",
+                "mode": "driving",
+                "maneuver": {
+                    "bearing_after": 180,
+                    "bearing_before": 180,
+                    "location": [-0.400797, 49.201618],
+                    "modifier": "left",
+                    "type": "end of road"
+                },
+                "weight": 97.5,
+                "duration": 62.400000000000006,
+                "name": "Route de Rosel",
+                "distance": 381.7
+            }, {
+                "distance": 14.2,
+                "name": "Boulevard du Maréchal Juin",
+                "ref": "D 401",
+                "maneuver": {
+                    "exit": 1,
+                    "bearing_after": 180,
+                    "bearing_before": 150,
+                    "location": [-0.395902, 49.200861],
+                    "modifier": "slight right",
+                    "type": "roundabout"
+                },
+                "destinations": "Toutes Directions, Le Chemin Vert, Z.I. Chemin Vert",
+                "weight": 2.4,
+                "mode": "driving",
+                "geometry": "kphkHjilAJ?JE",
+                "intersections": [{
+                    "out": 1,
+                    "in": 2,
+                    "entry": [false, true, false],
+                    "bearings": [15, 180, 330],
+                    "location": [-0.395902, 49.200861]
+                }],
+                "duration": 2.2,
+                "driving_side": "right"
+            }, {
+                "distance": 272.4,
+                "name": "Boulevard du Maréchal Juin",
+                "ref": "D 401",
+                "maneuver": {
+                    "exit": 1,
+                    "bearing_after": 184,
+                    "bearing_before": 161,
+                    "location": [-0.395874, 49.200736],
+                    "modifier": "slight right",
+                    "type": "exit roundabout"
+                },
+                "destinations": "Toutes Directions, Le Chemin Vert, Z.I. Chemin Vert",
+                "weight": 17.7,
+                "mode": "driving",
+                "geometry": "sohkHdilAPBLDpAv@dAl@~Al@vAZ|APD@",
+                "intersections": [{
+                    "out": 1,
+                    "in": 2,
+                    "entry": [true, true, false],
+                    "bearings": [150, 180, 345],
+                    "location": [-0.395874, 49.200736]
+                }],
+                "duration": 17.5,
+                "driving_side": "right"
+            }, {
+                "intersections": [{
+                    "out": 2,
+                    "in": 0,
+                    "entry": [false, true, true],
+                    "bearings": [0, 180, 210],
+                    "location": [-0.396899, 49.198398]
+                }, {
+                    "out": 2,
+                    "in": 0,
+                    "entry": [false, true, true],
+                    "bearings": [105, 135, 300],
+                    "location": [-0.397265, 49.198313]
+                }, {
+                    "out": 2,
+                    "in": 0,
+                    "entry": [false, false, true],
+                    "bearings": [120, 225, 300],
+                    "location": [-0.398716, 49.198956]
+                }, {
+                    "out": 2,
+                    "in": 0,
+                    "entry": [false, true, true],
+                    "bearings": [120, 210, 300],
+                    "location": [-0.398865, 49.199029]
+                }, {
+                    "out": 2,
+                    "in": 1,
+                    "entry": [true, false, true],
+                    "bearings": [30, 135, 315],
+                    "location": [-0.400932, 49.200048]
+                }, {
+                    "out": 2,
+                    "in": 0,
+                    "entry": [false, true, true],
+                    "bearings": [135, 240, 315],
+                    "location": [-0.402268, 49.200843]
+                }],
+                "driving_side": "right",
+                "geometry": "_ahkHrolAHHDDBD@H?J?JCPWv@iBhFM\\Ut@c@lAkAtCSh@q@vAs@~AiBjDs@zAi@fAGTKDE?G?",
+                "mode": "driving",
+                "maneuver": {
+                    "bearing_after": 212,
+                    "bearing_before": 187,
+                    "location": [-0.396899, 49.198398],
+                    "modifier": "right",
+                    "type": "turn"
+                },
+                "weight": 97.6,
+                "duration": 97.2,
+                "name": "Rue de Villons les Buissons",
+                "distance": 596
+            }, {
+                "intersections": [{
+                    "in": 0,
+                    "entry": [true],
+                    "bearings": [185],
+                    "location": [-0.403229, 49.201476]
+                }],
+                "driving_side": "right",
+                "geometry": "gthkHdwmA",
+                "mode": "driving",
+                "maneuver": {
+                    "bearing_after": 0,
+                    "bearing_before": 5,
+                    "location": [-0.403229, 49.201476],
+                    "type": "arrive"
+                },
+                "weight": 0,
+                "duration": 0,
+                "name": "Rue de Villons les Buissons",
+                "distance": 0
+            }],
+            "distance": 1598.7
+        }],
+        "weight_name": "routability",
+        "weight": 274.2,
+        "duration": 238.3,
+        "distance": 1598.7
+    }],
+    "waypoints": [{
+        "hint": "WpykgGHcy4YAAAAARgAAAHEAAAAMAAAAAAAAAKePWEL_BNxCAgoWQQAAAABGAAAAcQAAAAwAAAAKpgAAte75_3vJ7gK17vn_e8nuAgIAvwIBUfp3",
+        "distance": 0,
+        "name": "Rue Martin Luther King",
+        "location": [-0.397643, 49.203579]
+    }, {
+        "hint": "hd7Lhv___38AAAAAFQAAADUAAAAnAAAAAAAAAHnetkC3rWpByR4tQQAAAAAKAAAANQAAABMAAAAKpgAA49j5_0TB7gLj2Pn_RMHuAgMATwEBUfp3",
+        "distance": 0,
+        "name": "Rue de Villons les Buissons",
+        "location": [-0.403229, 49.201476]
+    }],
+    "code": "Ok"
+}
